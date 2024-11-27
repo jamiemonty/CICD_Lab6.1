@@ -1,9 +1,9 @@
-package ie.atu.week11example;
+package ie.atu.week12example;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@FeignClient(name="payment-service", url = "http:/localhost:8081/payment")
+@FeignClient(name="payment-service", url = "http://localhost:8081/payment")
 public interface PaymentClient {
 
     @PostMapping

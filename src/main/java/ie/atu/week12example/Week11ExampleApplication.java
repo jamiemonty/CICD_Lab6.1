@@ -1,4 +1,4 @@
-package ie.atu.week11example;
+package ie.atu.week12example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
